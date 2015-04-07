@@ -1,0 +1,116 @@
+<html>
+<head>
+<style type="stylesheet">
+.connect{
+width:60%;
+margin:0 auto;
+max-width:1920px;
+padding:10px;
+}
+.face{
+width:45%;
+float:left;
+max-width:520px;
+margin-bottom:10px;
+}
+.fb-like-box{
+float:right;
+backround:#fff;
+border:1px solid #E8E8E8;
+border-radius:5px;
+
+}
+#fb-root {
+display: none;
+}
+ 
+/* To fill the container and nothing else */
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+width: 100% !important;
+
+}
+.twit{
+width:50%;
+float:right;
+}
+.twitt{
+margin-bottom:5px;
+}
+.insta{
+background:#fff;
+border:1px solid #E8E8E8;
+padding:5px;
+border-radius:5px;
+max-width:520px;
+margin:5px;
+}
+.entry-content .twitter-tweet-rendered {
+max-width: 100% !important;
+}
+@media screen and (max-width:767px)
+{
+.connect{
+width:90%;
+margin:0 auto;
+}
+.face{
+width:100%;
+float:none;
+margin:0 auto;
+
+}
+.side{
+width:100%;
+float:none;
+padding: 10px;
+margin:0 auto;
+margin-top:5px;
+}
+iframe#twitter-widget-0 {
+margin: 0 auto;
+margin-left: 5%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.twitt{
+margin:0 auto;
+}
+.insta{
+margin:0 auto;
+}
+}
+</style>
+</head>
+<body>
+<div class="connect">
+
+<div class="face">
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<div class="fb-like-box" data-href="https://www.facebook.com/bravenewfilms" data-height="690" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false">
+		</div>
+</div>
+
+<div class="side">
+		<div>
+		<a class="twitter-timeline" data-dnt="true" width="100%" href="https://twitter.com/bravenewfilms" data-widget-id="536870056659939328">Tweets by @bravenewfilms</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+
+		<!-- SnapWidget -->
+		<div class="insta">
+		<script src="http://snapwidget.com/js/snapwidget.js"></script>
+		<iframe src="http://snapwidget.com/in/?u=YnJhdmVuZXdmaWxtc3xpbnwxMDB8M3wzfHxub3w1fG5vbmV8b25TdGFydHx5ZXN8eWVz&ve=151214" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+		</div>
+
+</div>
+</div>
+
+</body>
+</html>
